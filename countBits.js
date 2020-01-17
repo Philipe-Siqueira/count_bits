@@ -16,7 +16,13 @@
 * should return 5 in this case
 */
 
-var countBits = function(n) {
+/*
+Pega o número, converte para binário, transforma o binário em vetor e filtra o 
+vetor pelos bits 1 retornando a quantidade.
+*/
+const countBits = (n) => {
   return n.toString(2).split('').filter(value => value == 1).length
 };
-console.log(countBits(1234));
+
+
+module.exports = countBits

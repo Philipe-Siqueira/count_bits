@@ -1,0 +1,12 @@
+{
+  "name": "countbits",
+  "version": "1.0.0",
+  "author": "Philipe Siqueira",
+  "main": "countbits.js",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest --watchAll --logHeapUsage"
+  }
+}

@@ -11,6 +11,10 @@ Write a function that takes an integer as input, and returns the number of bits 
 ###### Example: The binary representation of 1234 is 10011010010, so the function  should return 5 in this case
 
 ```
+/*
+Pega o número, converte para binário, transforma o binário em vetor e filtra o 
+vetor pelos bits 1 retornando a quantidade.
+*/
 var countBits = function(n) {
   return n.toString(2).split('').filter(value => value == 1).length
 };
